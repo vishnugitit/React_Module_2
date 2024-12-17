@@ -5,13 +5,16 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import Fakestore from './Demo/fakestore';
+import Fakestore from './Accordian/fakestore';
+import FakeStoreTable from './Accordian/Table/fakestoretable';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
   <Fakestore/>
+<FakeStoreTable/>
   </React.StrictMode>
 );
 
